@@ -1,0 +1,10 @@
+# Originate: https://gist.github.com/benhuang1024/.gitignore
+# Author: ben<benhuang1024@gmail.com>
+
+# other
+vendor/
+.vagrant
+
+# IDE
+.idea/
+.vscode
