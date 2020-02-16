@@ -9,8 +9,14 @@ import org.springframework.web.bind.annotation.*;
 public class ExampleController {
 
     @GetMapping(value = "/home")
-    public String home() {
-        return "hello";
+    public String get() {
+        String test = "get";
+        return test;
+    }
+
+    @PostMapping(value = "/home")
+    public String post() {
+        return "post";
     }
 
 }
